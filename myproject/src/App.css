@@ -1,0 +1,182 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  background-color: rgb(250, 214, 250);
+  overflow: hidden;
+}
+.logo h1{
+  font-weight: bolder;
+  font-size: 30px;
+  color: #6f42c1;
+  float: right;
+  padding-left: 10px;
+}
+.nav-item{
+  margin-left: 35%;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.nav-menu{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+}
+
+.nav-menu:active{
+  background-color: blue;
+  border-radius: 20px;
+  color: bisque;
+}
+.nav-menu:hover{
+  justify-content: space-around;
+  background-color: blue;
+  border-radius: 20px;
+  color: bisque !important;
+}
+/* home page */
+#home{
+  height: 100%;
+  width: 100%;
+  background: #000;
+}
+#home .col{
+  margin-top: 80px;
+  overflow: hidden;
+}
+#home .contant h1{
+  padding-left: 80px;
+  color: rgb(137, 137, 183);
+  padding-top: 10px;
+}
+#home .contant p{
+  padding-left: 80px;
+  color: rgb(137, 137, 183);
+  padding-top: 10px;
+}
+#home .contant Button{
+  margin-top: 30px;
+  border-radius: 30%;
+  margin-left: 80px;
+}
+#home .image{
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 80px;
+  justify-items: center;
+  /* border-radius: 50%; */
+  overflow: hidden;
+}
+#home .image img{
+  border-radius: 50%;
+  border: 3px solid gray !important;
+  width: 90%;
+  margin-bottom: 30px;
+}
+/*#service*/
+#service{
+  background-color: lightgray;
+  overflow: hidden;
+}
+#service .row {
+ overflow: hidden;
+ margin-left: 80px;
+}
+#service .row .col{
+  margin-top: 80px;
+}
+#service .col h2{
+  padding-left: 67%;
+  color: rgb(0, 76, 255);
+  font-size: xx-large;
+}
+#service .col {
+ margin-top: 30px;
+ margin-bottom: 50px;
+}
+/* About */
+#about{
+  height: 100%;
+  width: 100%;
+  background-color: bisque;
+}
+#about .row{
+  background-color: azure;
+}
+#about .col{
+  margin-top: 50px;
+  margin-left: 80px;
+  /* margin-right: 80px; */
+}
+#about .col h1{
+  padding-left: 80px;
+  color: rgb(90, 90, 248);
+  padding-top: 100px;
+}
+#about .col p{
+  padding-left: 80px;
+  color: rgb(129, 129, 228);
+  padding-top: 50px;
+}
+
+#about .col button{
+  margin-top: 50px;
+  border-radius: 30%;
+  margin-left: 80px;
+}
+#about .col img{
+  width: 60%;
+  height: 50%;
+  margin-left: 40px;
+  border-radius: 50%;
+  border: 3px solid yellow ;
+}
+/* blog page */
+#blog{
+  background-color: aquamarine;
+  height: 100%;
+  width: 100%;
+}
+#blog .row{
+  margin-top: 80px;
+}
+#blog .row h1{
+  text-align: center;
+  padding-top: 50px;
+  color: deeppink;
+}
+#blog .col{
+  margin-left: 150px;
+  margin-top: 80px;
+  /* margin-right: 100px; */
+  margin-bottom: 40px;
+}
+/* contact */
+#contact{
+  background-color: black;
+  margin-top: 80px;
+}
+#contact .row{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+#contact .col h1{
+  text-align: center;
+  color: beige;
+  text-shadow: 0px 1px 0px gray,
+  0px 2px 0px gray,
+  0px 3px 0px gray;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+#contact .col img{
+  margin-left: 30px;
+  border-radius: 4%;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
